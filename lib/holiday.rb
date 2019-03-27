@@ -76,5 +76,5 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.collect { |holiday, supplies| holiday_bbq << holiday if supplies.include?("BBQ") }
   end
   holiday_bbq.uniq
-
+  binding.pry
 end
